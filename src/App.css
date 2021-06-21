@@ -1,38 +1,70 @@
 .App {
   text-align: center;
+  color: green;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main {
+  width: 80%;
+  margin: auto;
+  background-color: green;
+  border-radius: 6px;
+  text-align: left;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.questheader {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: serif;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.padd {
+  width: 80%;
+  margin: auto;
+  padding-top: 1%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+hr {
+  border: 1px solid white;
+  margin-top: -15px;
+}
+.quest {
+  font-size: 23px;
+  color: white;
+  font-family: initial;
+  margin-top: 20px;
+}
+.option {
+  margin-top: 30px;
+}
+.opt {
+  width: 100%;
+  height: 80px;
+  background: white;
+  margin: 10px 0px;
+  font-size: x-large;
+  font-family: monospace;
+  text-align: left;
+  padding-left: 20px;
+}
+.opt:hover {
+  cursor: pointer;
+  background-color: yellowgreen;
+}
+.score {
+  display: inline-block;
+  width: 40%;
+  color: white;
+}
+.scoremain {
+  text-align: center;
+  padding-bottom: 10px;
+}
+h1.title {
+  font-size: xx-large;
+  font-family: initial;
+  font-weight: bolder;
+}
+.greet {
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 33px;
+  font-family: unset;
 }
