@@ -8,6 +8,7 @@
   background-color: green;
   border-radius: 6px;
   text-align: left;
+  margin-bottom: 30px;
 }
 .questheader {
   font-size: 25px;
@@ -35,7 +36,7 @@ hr {
 }
 .opt {
   width: 100%;
-  height: 80px;
+  height: 50px;
   background: white;
   margin: 10px 0px;
   font-size: x-large;
@@ -48,8 +49,8 @@ hr {
   background-color: yellowgreen;
 }
 .score {
-  display: inline-block;
-  width: 40%;
+  display:inline-block;
+  min-width: 50%;
   color: white;
 }
 .scoremain {
@@ -67,4 +68,18 @@ h1.title {
   padding-top: 10px;
   font-size: 33px;
   font-family: unset;
+}
+@media screen and (max-width: 565px)
+{
+  .opt{
+    height: unset;
+    min-height: 50px;
+    height: 30% ;
+  }
+}
+@media screen and (max-width: 400px)
+{
+  .score{
+    display: block;
+  }
 }
