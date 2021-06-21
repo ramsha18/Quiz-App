@@ -82,4 +82,7 @@ h1.title {
   .score{
     display: block;
   }
+  .greet {
+    font-size: 23px;
+  }
 }
