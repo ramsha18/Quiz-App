@@ -1,5 +1,5 @@
-The appliaction is made using React.Js
-Using this application you can calculate your BMR in both Imperial and Metric Units.
-You can also calculate your daily calorie intake based on your activity level.
+This application is made using React.Js
 
-To start the application use npm-start
+The application consist of 3 questions. you can take the quiz and at the end it will show you the number of correct and incorrect answers along with your status.
+
+to start use command npm-start
